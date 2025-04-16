@@ -183,8 +183,8 @@ async def main(mode, num_transactions=None):
             while True:  
                 for refresh_token in access_tokens:
                     await handle_grow_and_garden(session, refresh_token)  
-                print(f"{Fore.RED}All accounts have been processed. Cooling down for 30 minutes...{Style.RESET_ALL}")
-                time.sleep(1800)  
+                print(f"{Fore.RED}All accounts have been processed. Cooling down for 1 minutes...{Style.RESET_ALL}")
+                time.sleep(60)  
         else:
             print(Fore.RED + "Invalid option. Please choose either 1 or 2." + Style.RESET_ALL)
 
