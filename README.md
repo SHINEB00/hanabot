@@ -19,8 +19,8 @@
 
 ## Instalation
 ```bash
-git clone https://github.com/Zlkcyber/hanafuda.git
-cd hanafuda
+git clone https://github.com/SHINEB00/hanabot.git
+cd hanabot
 ```
 install the packages
 ```bash
